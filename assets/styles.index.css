@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap');
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* reset CSS */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  body {
+    font-family: "Sedan", sans-serif;
+    color: #9f7199;
+    padding: 10px;
+  }
+
+  header {
+    background-color: rgb(180, 173, 173);
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
